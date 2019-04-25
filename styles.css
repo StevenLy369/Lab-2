@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    font-family: "Open Sans";
+    background-color: #f9fafc;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    main {
+        width:100%;
+        padding-top:10%;
+    }
+
+    .main-content {
+        margin-left: 45px;
+    }
+
+    .content-div{
+        width:47%;
+        float:left;
+    }
+
+    .scroll-div{
+        margin-top: 350px;
+        margin-left: 44%;
+        vertical-align: middle;
+    }
+
+    .hire-us, .scroll-button {
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        width: 110px;
+        height: 38px;
+        margin-top: -10px;
+        font-family: "Open Sans";
+        font-size: 15px;
+    }
+
+    .links {
+        margin-right: 45px;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+     
+    .main-content {
+        margin: 10px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+
+    .circle-parent-div {
+        display: none;
+        width: 100%;
+    }
+
+    .hire-us, .scroll-button {
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 38px;
+        font-family: "Open Sans";
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+
+.nav-bar{
+    position: relative;
+}
+
+link li {
+    list-style: none;
+    display:inline;
+    right:0;
+    padding: 50px;
+}
+
+.links > li > a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.title {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    display: inline;
+    float: right;
+    padding: 5px;
+}
+
+.chirpus {
+    float:left;
+    font-weight:bold;
+}
+
+main p {
+    border-left-style: inset;
+    padding-left: 20px;
+}
+
+.circle-div {
+    margin-left: 20%;
+    margin-right: 45px;
+    position: relative;
+}
+
+.circle1 {
+    background-color: rgba(207, 130, 213, 0.6);
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: absolute;
+    right:0;
+
+}
+
+.circle2 {
+    background-color: rgba(247, 136, 167, 0.6); 
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    position: absolute;
+    right: 100px;
+}
+
+.circle3 {
+    background-color: rgba(247, 193, 162, 0.7); 
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    border-radius: 100%;
+    right: 20px;
+    top:100px;
+    
+}
